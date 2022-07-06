@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gentlecolor/static/css/main.02d9dce4.css",
+    "main.js": "/gentlecolor/static/js/main.a34fd4ef.js",
+    "static/js/787.56aea7ae.chunk.js": "/gentlecolor/static/js/787.56aea7ae.chunk.js",
+    "index.html": "/gentlecolor/index.html",
+    "main.02d9dce4.css.map": "/gentlecolor/static/css/main.02d9dce4.css.map",
+    "main.a34fd4ef.js.map": "/gentlecolor/static/js/main.a34fd4ef.js.map",
+    "787.56aea7ae.chunk.js.map": "/gentlecolor/static/js/787.56aea7ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02d9dce4.css",
+    "static/js/main.a34fd4ef.js"
+  ]
+}
