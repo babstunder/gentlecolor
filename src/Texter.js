@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 
 
-const Texter = ({inputchange,inputchange2,contents,values})=>{
+const Texter = ({inputchange,inputchange2,content,values})=>{
     return(
      <div>
     
    <div className= "cons">
-      <h2 style={contents}></h2>
+      <h2>{content};</h2>
       
      </div>
  <div className="two">

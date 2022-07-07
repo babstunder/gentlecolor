@@ -42,7 +42,12 @@ h1{
 
 h2{
   color: brown;
+  font-size: 12px;
 
+}
+ins{
+  color:black;
+  text-decoration: none;
 }
 button{
   
@@ -65,9 +70,9 @@ button:hover{
  text-align: center;
   border: 1px solid brown;
   border-radius: 5px;
-  padding: 5px 0px;
+  padding: 2px 0px;
 margin: auto;
-  width: 200px;
+  width: 250px;
   margin-top: 1rem;
   margin-bottom: 1rem;
 

@@ -22,12 +22,12 @@ class Gradient extends Component{
 
      onInputChange = (event) =>{
        this.setState({bgcolor1:event.target.value});
-
+       this.setState({contentField:event.target.value})
       
 }
 onInputChange2 = (event) =>{
        this.setState({bgcolor2:event.target.value});
-         
+         this.setState({contentField:event.target.value})
 
  } 
 
@@ -36,6 +36,7 @@ onInputChange2 = (event) =>{
      const bgcolor = {
       background: `linear-gradient(to right ,${this.state.bgcolor1},${this.state.bgcolor2})`,
      }
+ 
     
 return(
   <div>
@@ -50,7 +51,7 @@ return(
    <div >
       
       
-    <Texter inputchange = {this.onInputChange} inputchange2 = {this.onInputChange2}   values={this.state.bgcolor2} contents = {bgcolor} />
+    <Texter inputchange = {this.onInputChange} inputchange2 = {this.onInputChange2}   values={this.state.bgcolor2} content={bgcolor.background}  />
    
 
    </div>
