@@ -32,13 +32,15 @@ class Home extends Component{
   
    return (
     <div>
+    <div className="ul">
      <h1>GET COLOR</h1> 
-     <ul>
      
-     <li>
-       <Link to ="/Gradient" style={{color:'white',textDecoration:'none'}}>Linear-Gradient</Link>
-     </li>
-     </ul>
+     <div>
+     <button>
+       <Link to ="/Gradient" style={{color:'white',textDecoration:'none'}}>click for Gradient</Link>
+     </button>
+     </div>
+     </div>
      <Text inputchange = {this.onInputChange} values={this.state.bgcolor} content={this.state.contentField}/>
      
      

@@ -39,12 +39,14 @@ onInputChange2 = (event) =>{
     
 return(
   <div>
+  <div className="ul">
    <h1>GET COLOR</h1>
-    <ul>
-     <li style={{background:"brown"}}>
-       <Link className="link" to ="/" style={{color:'white',textDecoration:'none'}}>Single Color</Link>
-     </li>
-     </ul>
+    <div>
+     <button className="buttons">
+       <Link className="link" to ="/" style={{color:'white',textDecoration:'none'}}>Click for color</Link>
+     </button>
+     </div>
+     </div>
    <div >
       
       
