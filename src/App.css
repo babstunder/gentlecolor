@@ -2,36 +2,110 @@ body{
   background: #ddd;
 
 }
+.color{
+margin-top: 1rem;
+justify-content: center;
+display: flex;
 
-.App{
+
+}
+.two{
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  
+justify-content: center;
+margin-bottom: 1rem;
+}
+li{
+  list-style: none;
+  border: 1px solid grey;
+  background: linear-gradient(to right,yellow,red);
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  transition:3s;
+  font-size: 12px;
+}
+li:hover{
+  background: linear-gradient(to right,red,yellow);
+   transition: background 5s;
+}
+ul{
   align-items: center;
-  margin-top: 2em;
+  justify-content: center;
+  display: flex;
+
 }
 
 
+.App{
+
+  height: 56.0vh;
+  transition: ease all 500ms;
+}
+.Appp{
+height: 69.5vh;
+  transition: ease all 500ms;
+
+}
 h1{
   text-align: center;
   color: brown;
 }
+
 h2{
   color: brown;
+
 }
-.con{
-text-align: center;
+.button{
+  
+  padding: 18px;
+  border: 1px solid brown;
+    border-radius: 5px;
+  background: linear-gradient(to left, yellow,red);
+  color: white;
+  cursor: pointer;
+  margin: auto;
+
+}
+.button:hover{
+  background: linear-gradient(to left, red,yellow);
+
+}
+
+.cons{
+ text-align: center;
   border: 1px solid brown;
   border-radius: 5px;
   padding: 5px 0px;
-  justify-content: center;
+margin: auto;
   width: 200px;
-  margin: auto;
-  
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 
-  
 
 }
+.con{
+
+   display: flex;
+  justify-self: center;
 
 
+  flex-direction: column;
+  
+  }
+  .conss{
+    margin: auto;
+    border-radius: 10px;
+
+  }
+  input[type=text]{
+    padding: 10px;
+     border-radius: 5px;
+     border: 1px solid transparent;
+
+  }
+  input[type=text]:focus{
+    outline: 1px solid grey;
+  }
 
