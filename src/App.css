@@ -91,15 +91,31 @@ margin: auto;
     margin: auto;
     border-radius: 10px;
 
+
   }
-  input[type=text]{
+  .consss{
+    display: flex;
+    justify-content: center;
+     margin-bottom: 1rem;
+
+
+  }
+  .text1{
     padding: 10px;
      border-radius: 5px;
      border: 1px solid transparent;
 
   }
-  input[type=text]:focus{
+   .text1,.text2,.text3:focus{
     outline: 1px solid grey;
     border-radius: 5px;
+  }
+  .text2,.text3{
+    margin-right: 10px;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid transparent;
+     width: 100px;
+
   }
 

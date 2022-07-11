@@ -10,7 +10,7 @@ const Text = ({inputchange,content,values})=>{
      </div>
           
       <div className="conss">
-      	<input type = "text" value={values} placeholder="Type a color" onChange = {inputchange}/>
+      	<input type ="text" className="text1" value={values} placeholder="Type a color" onChange = {inputchange}/>
 
       </div>
        

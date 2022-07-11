@@ -9,8 +9,8 @@ class Gradient extends Component{
   constructor(){
     super()
     this.state = {
-      bgcolor1:"#ff8020",
-      bgcolor2:"#cc1090",
+      bgcolor1:"",
+      bgcolor2:"",
       contentField:''
   
 
@@ -51,7 +51,7 @@ return(
    <div >
       
       
-    <Texter inputchange = {this.onInputChange} inputchange2 = {this.onInputChange2}   values={this.state.bgcolor2} content={bgcolor.background}  />
+    <Texter inputchange = {this.onInputChange} inputchange2 = {this.onInputChange2}   values={this.state.bgcolor2} valuess={this.state.bgcolor1} content={bgcolor.background}/>
    
 
    </div>
