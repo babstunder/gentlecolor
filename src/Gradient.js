@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
-import {Link} from 'react-router-dom';
+
+
 
 
 import Texter from './Texter'
@@ -41,16 +42,10 @@ onInputChange2 = (event) =>{
 return(
   <div>
   <div className="ul">
-   <h1>GET COLOR</h1>
+
+   </div >
+      
     <div>
-     <button className="buttons">
-       <Link className="link" to ="/" style={{color:'white',textDecoration:'none'}}>Click for color</Link>
-     </button>
-     </div>
-     </div>
-   <div >
-      
-      
     <Texter inputchange = {this.onInputChange} inputchange2 = {this.onInputChange2}   values={this.state.bgcolor2} valuess={this.state.bgcolor1} content={bgcolor.background}/>
    
 
